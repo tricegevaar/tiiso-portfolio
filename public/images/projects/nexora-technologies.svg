@@ -1,0 +1,106 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tech-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg1)"/>
+  
+  <!-- Tech Grid Background -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#333" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#grid)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="600" height="80" fill="#1a1a1a"/>
+  <rect x="40" y="25" width="140" height="30" rx="4" fill="url(#accent1)"/>
+  <rect x="450" y="30" width="50" height="20" rx="4" fill="#333"/>
+  <rect x="510" y="30" width="50" height="20" rx="4" fill="#333"/>
+  
+  <!-- Hero Section -->
+  <rect x="40" y="100" width="320" height="150" rx="12" fill="url(#tech-bg)" stroke="#00d4ff" stroke-width="1"/>
+  
+  <!-- Hero Content -->
+  <rect x="60" y="120" width="200" height="25" rx="4" fill="#00d4ff"/>
+  <rect x="60" y="155" width="150" height="15" rx="4" fill="#666"/>
+  <rect x="60" y="180" width="180" height="12" rx="4" fill="#555"/>
+  <rect x="60" y="200" width="120" height="30" rx="15" fill="url(#accent1)"/>
+  
+  <!-- Tech Stack Icons -->
+  <circle cx="280" cy="140" r="15" fill="#00d4ff" opacity="0.3"/>
+  <circle cx="310" cy="140" r="15" fill="#8b5cf6" opacity="0.3"/>
+  <circle cx="340" cy="140" r="15" fill="#10b981" opacity="0.3"/>
+  
+  <!-- Code Blocks -->
+  <rect x="280" y="170" width="70" height="40" rx="4" fill="#333" stroke="#00d4ff" stroke-width="1"/>
+  <rect x="285" y="175" width="60" height="4" rx="2" fill="#00d4ff"/>
+  <rect x="285" y="185" width="45" height="4" rx="2" fill="#666"/>
+  <rect x="285" y="195" width="50" height="4" rx="2" fill="#666"/>
+  
+  <!-- Services Section -->
+  <rect x="380" y="100" width="180" height="270" rx="12" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  
+  <!-- Service Cards */
+  <rect x="400" y="120" width="140" height="50" rx="6" fill="#333"/>
+  <rect x="400" y="180" width="140" height="50" rx="6" fill="#333"/>
+  <rect x="400" y="240" width="140" height="50" rx="6" fill="#333"/>
+  <rect x="400" y="300" width="140" height="50" rx="6" fill="#333"/>
+  
+  <!-- Service Icons -->
+  <circle cx="425" cy="145" r="10" fill="url(#accent1)"/>
+  <circle cx="425" cy="205" r="10" fill="url(#accent1)"/>
+  <circle cx="425" cy="265" r="10" fill="url(#accent1)"/>
+  <circle cx="425" cy="325" r="10" fill="url(#accent1)"/>
+  
+  <!-- Service Text -->
+  <rect x="445" y="140" width="80" height="8" rx="4" fill="#00d4ff"/>
+  <rect x="445" y="200" width="80" height="8" rx="4" fill="#00d4ff"/>
+  <rect x="445" y="260" width="80" height="8" rx="4" fill="#00d4ff"/>
+  <rect x="445" y="320" width="80" height="8" rx="4" fill="#00d4ff"/>
+  
+  <!-- Features Grid -->
+  <rect x="40" y="270" width="320" height="100" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  
+  <!-- Feature Items -->
+  <rect x="60" y="290" width="80" height="60" rx="6" fill="#333"/>
+  <rect x="150" y="290" width="80" height="60" rx="6" fill="#333"/>
+  <rect x="240" y="290" width="80" height="60" rx="6" fill="#333"/>
+  
+  <!-- Feature Icons -->
+  <circle cx="100" cy="310" r="8" fill="url(#accent1)"/>
+  <circle cx="190" cy="310" r="8" fill="url(#accent1)"/>
+  <circle cx="280" cy="310" r="8" fill="url(#accent1)"/>
+  
+  <!-- Feature Labels -->
+  <rect x="70" y="325" width="60" height="6" rx="3" fill="#666"/>
+  <rect x="160" y="325" width="60" height="6" rx="3" fill="#666"/>
+  <rect x="250" y="325" width="60" height="6" rx="3" fill="#666"/>
+  
+  <!-- Tech Decorations -->
+  <circle cx="100" cy="150" r="3" fill="#00d4ff" opacity="0.6"/>
+  <circle cx="150" cy="130" r="2" fill="#8b5cf6" opacity="0.6"/>
+  <circle cx="200" cy="170" r="4" fill="#10b981" opacity="0.6"/>
+  <circle cx="250" cy="140" r="2" fill="#00d4ff" opacity="0.6"/>
+  
+  <!-- Connection Lines -->
+  <line x1="100" y1="150" x2="150" y2="130" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="130" x2="200" y2="170" stroke="#8b5cf6" stroke-width="1" opacity="0.3"/>
+  <line x1="200" y1="170" x2="250" y2="140" stroke="#10b981" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Project Label -->
+  <text x="300" y="390" text-anchor="middle" fill="#00d4ff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">NEXORA TECHNOLOGIES</text>
+</svg>

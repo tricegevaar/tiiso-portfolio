@@ -1,0 +1,87 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#bg6)"/>
+  
+  <!-- Hotel Header -->
+  <rect x="0" y="0" width="600" height="70" fill="#1a1a1a"/>
+  <rect x="40" y="20" width="120" height="30" rx="4" fill="url(#accent6)"/>
+  <rect x="400" y="25" width="60" height="20" rx="4" fill="#333"/>
+  <rect x="470" y="25" width="60" height="20" rx="4" fill="#333"/>
+  <rect x="540" y="25" width="20" height="20" rx="10" fill="#8b5cf6"/>
+  
+  <!-- Search/Filter Bar -->
+  <rect x="40" y="90" width="520" height="50" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <rect x="60" y="105" width="100" height="20" rx="4" fill="#333"/>
+  <rect x="180" y="105" width="100" height="20" rx="4" fill="#333"/>
+  <rect x="300" y="105" width="100" height="20" rx="4" fill="#333"/>
+  <rect x="420" y="105" width="80" height="20" rx="10" fill="url(#accent6)"/>
+  
+  <!-- Room Cards -->
+  <rect x="40" y="160" width="250" height="120" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  <rect x="310" y="160" width="250" height="120" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  
+  <!-- Room Images -->
+  <rect x="60" y="180" width="80" height="60" rx="6" fill="#333"/>
+  <rect x="330" y="180" width="80" height="60" rx="6" fill="#333"/>
+  
+  <!-- Room Icons -->
+  <circle cx="100" cy="200" r="8" fill="url(#accent6)"/>
+  <circle cx="370" cy="200" r="8" fill="url(#accent6)"/>
+  
+  <!-- Room Details -->
+  <rect x="160" y="185" width="100" height="12" rx="4" fill="#8b5cf6"/>
+  <rect x="160" y="205" width="80" height="8" rx="4" fill="#666"/>
+  <rect x="160" y="220" width="60" height="8" rx="4" fill="#666"/>
+  
+  <rect x="430" y="185" width="100" height="12" rx="4" fill="#8b5cf6"/>
+  <rect x="430" y="205" width="80" height="8" rx="4" fill="#666"/>
+  <rect x="430" y="220" width="60" height="8" rx="4" fill="#666"/>
+  
+  <!-- Price and Book Button -->
+  <rect x="160" y="245" width="40" height="15" rx="4" fill="#10b981"/>
+  <rect x="210" y="245" width="40" height="15" rx="8" fill="url(#accent6)"/>
+  
+  <rect x="430" y="245" width="40" height="15" rx="4" fill="#10b981"/>
+  <rect x="480" y="245" width="40" height="15" rx="8" fill="url(#accent6)"/>
+  
+  <!-- Booking Summary -->
+  <rect x="40" y="300" width="520" height="70" rx="8" fill="#1a1a1a" stroke="#333" stroke-width="1"/>
+  
+  <!-- Guest Info -->
+  <rect x="60" y="320" width="120" height="30" rx="6" fill="#333"/>
+  <rect x="200" y="320" width="120" height="30" rx="6" fill="#333"/>
+  <rect x="340" y="320" width="120" height="30" rx="6" fill="#333"/>
+  
+  <!-- Confirm Button -->
+  <rect x="480" y="320" width="60" height="30" rx="15" fill="url(#accent6)"/>
+  
+  <!-- Calendar Icons -->
+  <rect x="70" y="325" width="20" height="20" rx="2" fill="#8b5cf6" opacity="0.3"/>
+  <rect x="210" y="325" width="20" height="20" rx="2" fill="#8b5cf6" opacity="0.3"/>
+  
+  <!-- Guest Count -->
+  <circle cx="360" cy="335" r="8" fill="#10b981" opacity="0.3"/>
+  
+  <!-- Amenities Icons -->
+  <circle cx="120" cy="200" r="4" fill="#10b981"/>
+  <circle cx="130" cy="200" r="4" fill="#10b981"/>
+  <circle cx="140" cy="200" r="4" fill="#10b981"/>
+  
+  <circle cx="390" cy="200" r="4" fill="#10b981"/>
+  <circle cx="400" cy="200" r="4" fill="#10b981"/>
+  <circle cx="410" cy="200" r="4" fill="#10b981"/>
+  
+  <!-- Project Label -->
+  <text x="300" y="390" text-anchor="middle" fill="#8b5cf6" font-family="Arial, sans-serif" font-size="16" font-weight="bold">HOTEL BOOKING SYSTEM</text>
+</svg>
